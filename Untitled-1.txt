@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                 <title>Art Expression</title>
+                     <style>
+                             body {
+                                            font-family: Arial, sans-serif;
+                                                        background-color: #f4f4f4;
+                                                                    margin: 0;
+                                                                                padding: 0;
+                             }
+
+                                     header {
+                                                    background-color: #333;
+                                                                color: #fff;
+                                                                            padding: 20px 0;
+                                                                                        text-align: center;
+                                     }
+
+                                             header h1 {
+                                                            margin: 0;
+                                                                        font-size: 3rem;
+                                             }
+
+                                                     nav {
+                                                                    text-align: center;
+                                                                                margin-top: 10px;
+                                                     }
+
+                                                             nav a {
+                                                                            color: #fff;
+                                                                                        text-decoration: none;
+                                                                                                    margin: 0 15px;
+                                                                                                                padding: 10px;
+                                                             }
+
+                                                                     nav a:hover {
+                                                                                    text-decoration: underline;
+                                                                     }
+
+                                                                             section {
+                                                                                            max-width: 1000px;
+                                                                                                        margin: 50px auto;
+                                                                                                                    padding: 20px;
+                                                                                                                                background-color: #fff;
+                                                                                                                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                                             }
+
+                                                                                     h2 {
+                                                                                                    font-size: 2rem;
+                                                                                                                text-align: center;
+                                                                                                                            margin-bottom: 20px;
+                                                                                     }
+
+                                                                                             .art-section {
+                                                                                                            display: flex;
+                                                                                                                        flex-wrap: wrap;
+                                                                                                                                    justify-content: space-between;
+                                                                                             }
+
+                                                                                                     .art-piece {
+                                                                                                                    width: 48%;
+                                                                                                                                margin-bottom: 20px;
+                                                                                                     }
+
+                                                                                                             .art-piece img {
+                                                                                                                            max-width: 100%;
+                                                                                                                                        height: auto;
+                                                                                                             }
+
+                                                                                                                     .art-piece h3 {
+                                                                                                                                    margin-top: 10px;
+                                                                                                                                                font-size: 1.5rem;
+                                                                                                                                                            text-align: center;
+                                                                                                                     }
+
+                                                                                                                             .writing-section {
+                                                                                                                                            text-align: justify;
+                                                                                                                                                        margin-bottom: 30px;
+                                                                                                                             }
+
+                                                                                                                                     .writing-section p {
+                                                                                                                                                    line-height: 1.6;
+                                                                                                                                     }
+
+                                                                                                                                             footer {
+                                                                                                                                                            background-color: #333;
+                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                                padding: 20px 0;
+                                                                                                                                                                                                            margin-top: 50px;
+                                                                                                                                             }
+
+                                                                                                                                                     footer p {
+                                                                                                                                                                    margin: 0;
+                                                                                                                                                     }
+                                                                                                                                                         </style>
+                                                                                                                                                         </head>
+                                                                                                                                                         <body>
+
+                                                                                                                                                             <header>
+                                                                                                                                                                     <h1>Art Expression</h1>
+                                                                                                                                                                             <nav>
+                                                                                                                                                                                         <a href="#written-work">Written Work</a>
+                                                                                                                                                                                                     <a href="#gallery">Gallery</a>
+                                                                                                                                                                                                             </nav>
+                                                                                                                                                                                                                 </header>
+
+                                                                                                                                                                                                                     <section id="written-work">
+                                                                                                                                                                                                                             <h2>Written Work</h2>
+                                                                                                                                                                                                                                     <div class="writing-section">
+                                                                                                                                                                                                                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices eros at turpis gravida, nec convallis purus bibendum. Nulla facilisi. Maecenas ut metus dolor. Phasellus dictum semper mi, non vestibulum justo suscipit ac.</p>
+                                                                                                                                                                                                                                                             <p>Nullam vulputate orci eget enim tristique, et auctor velit tempor. Curabitur sollicitudin dui eu justo pharetra tincidunt. Donec scelerisque accumsan odio, non bibendum mi tincidunt sed.</p>
+                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                         </section>
+
+                                                                                                                                                                                                                                                                             <section id="gallery">
+                                                                                                                                                                                                                                                                                     <h2>Gallery</h2>
+                                                                                                                                                                                                                                                                                             <div class="art-section">
+                                                                                                                                                                                                                                                                                                         <div class="art-piece">
+                                                                                                                                                                                                                                                                                                                         <img src="art1.jpg" alt="Art 1">
+                                                                                                                                                                                                                                                                                                                                         <h3>Art Piece 1</h3>
+                                                                                                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                                                                                                                 <div class="art-piece">
+                                                                                                                                                                                                                                                                                                                                                                                 <img src="art2.jpg" alt="Art 2">
+                                                                                                                                                                                                                                                                                                                                                                                                 <h3>Art Piece 2</h3>
+                                                                                                                                                                                                                                                                                                                                                                                                             </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                         <div class="art-piece">
+                                                                                                                                                                                                                                                                                                                                                                                                                                         <img src="art3.jpg" alt="Art 3">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                         <h3>Art Piece 3</h3>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <div class="art-piece">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <img src="art4.jpg" alt="Art 4">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <h3>Art Piece 4</h3>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </section>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <footer>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <p>&copy; 2024 Art Expression. All Rights Reserved.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </footer>
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </body>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                     }
+                                                                                                                                             }
+                                                                                                                                     }
+                                                                                                                             }
+                                                                                                                     }
+                                                                                                             }
+                                                                                                     }
+                                                                                             }
+                                                                                     }
+                                                                             }
+                                                                     }
+                                                             }
+                                                     }
+                                             }
+                                     }
+                             }
